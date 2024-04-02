@@ -23,7 +23,7 @@ def decrypt_msg(msg):
     d_msg = cipher.decrypt(msg_pack[0])
     return d_msg.decode()
 
-SERVER_HOST = '192.168.1.53' # indirizzo IP del server 
+SERVER_HOST = '10.0.2.15' # indirizzo IP del server 
 SERVER_PORT = 4444 # porta usata solo per l'acknowledgement
 BUFFER_SIZE = 1024 * 128 
 SEPARATOR = "<sep>"
